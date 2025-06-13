@@ -5,7 +5,6 @@ import UserList from "./components/UserList";
 import AddExpenseForm from "./components/AddExpenseForm";
 import ExpenseList from "./components/ExpenseList";
 import Summary from "./components/Summary";
-import ExpenseBreakdown from "./components/ExpenseBreakdown";
 import TotalSpending from "./components/TotalSpending";
 import ExportExpenses from "./components/ExportExpenses";
 
@@ -68,10 +67,6 @@ function App() {
         <Box className="section" sx={{ marginBottom: 4 }}>
           <ExpenseList key={refreshFlag} />
         </Box>
-
-        {/* <Box className="section" sx={{ marginBottom: 4 }}>
-          <ExpenseBreakdown />
-        </Box> */}
 
         <Divider sx={{ marginY: 3 }} />
       </Container>

@@ -15,7 +15,6 @@ import {
   useMediaQuery,
 } from "@mui/material";
 import MonetizationOnIcon from "@mui/icons-material/MonetizationOn";
-import CreditScoreIcon from "@mui/icons-material/CreditScore";
 import { useTheme } from "@mui/material/styles";
 
 export default function TotalSpending() {
